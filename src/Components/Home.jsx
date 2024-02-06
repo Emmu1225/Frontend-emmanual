@@ -13,16 +13,16 @@ const Home = () => {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <NavLink to={'/'} className="nav-link active" aria-current="page">Home</NavLink>
+          <NavLink to={'/Frontend-emmanual'} className="nav-link active" aria-current="page">Home</NavLink>
         </li>
         <li class="nav-item">
-          <NavLink to={'/LoginPage'} className="nav-link active">Login</NavLink>
+          <NavLink to={'/Frontend-emmanual/LoginPage'} className="nav-link active">Login</NavLink>
         </li>
         <li class="nav-item">
-        <NavLink to={'/SignUp'} className="nav-link active">SignUp</NavLink>
+        <NavLink to={'/Frontend-emmanual/SignUp'} className="nav-link active">SignUp</NavLink>
         </li>  
         <li class="nav-item">
-        <NavLink to={'/Employeetable'} className="nav-link active">EmployeeTable</NavLink>
+        <NavLink to={'/Frontend-emmanual/Employeetable'} className="nav-link active">EmployeeTable</NavLink>
         </li>
       </ul>
     </div>

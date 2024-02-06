@@ -11,9 +11,9 @@ function App() {
     <div>
       <Routes>
         <Route path='/Frontend-emmanual' element={<Home/>}></Route>
-        <Route path='/Loginpage' element={<LoginPage/>}></Route>
-        <Route path='/SignUp' element={<SignUp/>}></Route>
-        <Route path='/EmployeeTable' element={<EmployeeTable/>}></Route>
+        <Route path='/Frontend-emmanual/Loginpage' element={<LoginPage/>}></Route>
+        <Route path='/Frontend-emmanual/SignUp' element={<SignUp/>}></Route>
+        <Route path='/Frontend-emmanual/EmployeeTable' element={<EmployeeTable/>}></Route>
       </Routes>
     </div>
   );
